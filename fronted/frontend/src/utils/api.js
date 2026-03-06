@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-    baseURL: "compus360-production.up.railway.app"
+    baseURL: "https://compus360-production.up.railway.app/api/auth"
 });
 
 // 🔥 Automatically token attach karega future me
